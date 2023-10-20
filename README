@@ -1,6 +1,8 @@
 la macro ImportaSPBloccato prende in input un file excel bloccato in tutte le funzionalità, tranne la visualizzazione, e lo importa in uno manipolabile.
 Ci sono problemi potenziali sul riconoscimento dell'ultima colonna: il programma legge le righe da 50 a 80 per trovarla: nel caso, modificare a manina
 
+ATTENZIONE! - la conversione da PDF a excel bloccato viene fatta da PDF-XChange.  È fondamentale unsare la modalità Line nell'opzione Use a new row in the sheet
+
 
 
 La macro Importa Indirizzi prende in input un file di testo ottenuto salvando in formato PRN il file precedente.
